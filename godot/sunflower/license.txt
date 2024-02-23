@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sunflower
+* source:	https://sketchfab.com/3d-models/sunflower-22cb55562c844320bab043ce64e8ab1c
+* author:	Marche (https://sketchfab.com/l_marche_l)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sunflower" (https://sketchfab.com/3d-models/sunflower-22cb55562c844320bab043ce64e8ab1c) by Marche (https://sketchfab.com/l_marche_l) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

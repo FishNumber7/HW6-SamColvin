@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5lumcqkxiuhs"]
+
+[ext_resource type="PackedScene" uid="uid://ywr7lorthqpe" path="res://peaches/scene.gltf" id="1_himpi"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_himpi")]
+
+[node name="peach_pCube1" parent="Sketchfab_model/00cd1ed5383c498985130ced1430b7e1_fbx/RootNode/group/group1" index="0"]
+visible = false
+
+[node name="peach_polySurface1" parent="Sketchfab_model/00cd1ed5383c498985130ced1430b7e1_fbx/RootNode/group/group1" index="1"]
+visible = false
+
+[node name="peach_polySurface2" parent="Sketchfab_model/00cd1ed5383c498985130ced1430b7e1_fbx/RootNode/group/group1" index="3"]
+visible = false

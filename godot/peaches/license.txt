@@ -1,0 +1,11 @@
+Model Information:
+* title:	Peaches
+* source:	https://sketchfab.com/3d-models/peaches-6b85ce0741944f069cb7bd6c06177ba2
+* author:	Amphivena (https://sketchfab.com/Amphivena)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Peaches" (https://sketchfab.com/3d-models/peaches-6b85ce0741944f069cb7bd6c06177ba2) by Amphivena (https://sketchfab.com/Amphivena) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

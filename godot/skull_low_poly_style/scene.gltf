@@ -1,0 +1,274 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2398,
+      "max": [
+        1.012376308441162,
+        1.2179884910583496,
+        1.5407558679580688
+      ],
+      "min": [
+        -1.012376308441162,
+        -1.284963846206665,
+        -0.6182920336723328
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28776,
+      "componentType": 5126,
+      "count": 2398,
+      "max": [
+        0.9991722702980042,
+        0.9965988993644714,
+        0.9999575614929199
+      ],
+      "min": [
+        -0.9991722702980042,
+        -0.9977757334709167,
+        -0.9995869398117065
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3600,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 57552,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        0.6739344596862793,
+        -0.9392744302749634,
+        0.4520396292209625
+      ],
+      "min": [
+        -0.6739344596862793,
+        -1.284963846206665,
+        -0.30650439858436584
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 58416,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        0.8958590030670166,
+        0.422905296087265,
+        0.9366204738616943
+      ],
+      "min": [
+        -0.8958590030670166,
+        -0.9108796119689941,
+        -0.9384464621543884
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14400,
+      "componentType": 5125,
+      "count": 108,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Tiko (https://sketchfab.com/tikoavp)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/skull-low-poly-style-c95ef9e849754a1b836465aee31fd334",
+      "title": "Skull (Low Poly Style)"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 14832,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 59280,
+      "byteOffset": 14832,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 74112,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Skull",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.899146,
+          0.844369,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.47539505925128744
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Skull_Holes",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0578024,
+          0.0578024,
+          0.0578024,
+          1.0
+        ],
+        "metallicFactor": 0.4030014774820787,
+        "roughnessFactor": 0.9870749904337366
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube_Skull_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube_Skull Holes_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "c6af0bf4925d42a8954a31d15d04bdfc.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        152.9901123046875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.4925253036912274e-05,
+        -152.99011230468548,
+        0.0,
+        0.0,
+        152.99011230468548,
+        -2.4925253036912274e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube_Skull_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Cube_Skull Holes_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

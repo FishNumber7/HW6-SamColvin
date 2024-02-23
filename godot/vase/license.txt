@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vase
+* source:	https://sketchfab.com/3d-models/vase-312682dea1ee45fea02375f52a6b11c7
+* author:	leoni (https://sketchfab.com/leoni)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vase" (https://sketchfab.com/3d-models/vase-312682dea1ee45fea02375f52a6b11c7) by leoni (https://sketchfab.com/leoni) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

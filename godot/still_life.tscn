@@ -1,0 +1,115 @@
+[gd_scene load_steps=20 format=3 uid="uid://bjcexsws4le7v"]
+
+[ext_resource type="PackedScene" uid="uid://smreprgep8vd" path="res://grapes_from_poly_by_google/scene.gltf" id="1_nlhgq"]
+[ext_resource type="PackedScene" uid="uid://c8aoil7semyek" path="res://vase/scene.gltf" id="2_a6iph"]
+[ext_resource type="PackedScene" uid="uid://d2cwwlibq621c" path="res://sunflower/scene.gltf" id="3_m361o"]
+[ext_resource type="PackedScene" uid="uid://d0yujt4svihas" path="res://skull_low_poly_style/scene.gltf" id="4_njk4j"]
+[ext_resource type="PackedScene" uid="uid://cb1ixcunwc878" path="res://classic_wine_bottle_with_label/scene.gltf" id="5_1csim"]
+[ext_resource type="PackedScene" uid="uid://b5lumcqkxiuhs" path="res://sketchfab_scene.tscn" id="6_fmu8q"]
+[ext_resource type="PackedScene" uid="uid://dm6dtmj7f6mgv" path="res://apple/scene.gltf" id="7_snvtf"]
+[ext_resource type="Texture2D" uid="uid://bgjk0jb5lg8ho" path="res://music.jpg" id="8_jqsnf"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_4if4v"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_24cqg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8lh7v"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_l8e3r"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gimhu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7o6fs"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rndae"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_esisx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_aayhe"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nqm5i"]
+albedo_texture = ExtResource("8_jqsnf")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_h0od4"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.972453, 0.0825025, 0.218009, -0.198136, 0.785228, 0.58665, -0.122787, -0.613685, 0.779945, -33.7675, 13.7908, 5.88238)
+light_color = Color(0.980392, 0.435294, 0.501961, 1)
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.876945, 0.0834537, -0.47329, -5.48645e-09, 0.984808, 0.173648, 0.480591, -0.15228, 0.863622, -11.0087, 9.4403, 13.0979)
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+transform = Transform3D(79.9893, 0, 0, 0, 4.32393, 0, 0, 0, 32.4933, 0, 0, 0)
+mesh = SubResource("PlaneMesh_4if4v")
+
+[node name="Wall" type="MeshInstance3D" parent="."]
+transform = Transform3D(-3.91468, 3.77516, -2.9333, 0.150455, 98.2254, 0.112737, 140.691, 0, -0.0817387, 23.2603, 0, -37.0838)
+mesh = SubResource("BoxMesh_24cqg")
+
+[node name="Wall2" type="MeshInstance3D" parent="."]
+transform = Transform3D(140.529, 0, 0, 0, 85.2721, 0, 0, 0, 2.78169, 0, 0, -37.0838)
+mesh = SubResource("BoxMesh_24cqg")
+
+[node name="Table Legs" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 10.7636, 0, 0, 0, 1, -0.456167, 0, 0)
+material_override = SubResource("StandardMaterial3D_8lh7v")
+mesh = SubResource("BoxMesh_l8e3r")
+
+[node name="Table Legs2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 10.7636, 0, 0, 0, 1, -7.31011, 0, 0)
+material_override = SubResource("StandardMaterial3D_gimhu")
+mesh = SubResource("BoxMesh_l8e3r")
+
+[node name="Table Legs3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 10.7636, 0, 0, 0, 1, -8.96135, 0, 6.795)
+material_overlay = SubResource("StandardMaterial3D_7o6fs")
+mesh = SubResource("BoxMesh_l8e3r")
+
+[node name="Table Legs5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 10.7636, 0, 0, 0, 1, -0.456167, 0, 6.79535)
+material_overlay = SubResource("StandardMaterial3D_rndae")
+mesh = SubResource("BoxMesh_l8e3r")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(11.6113, 0, 0, 0, 1, 0, 0, 0, 12.355, -4.68237, 5.02132, 1.8879)
+material_override = SubResource("StandardMaterial3D_esisx")
+mesh = SubResource("BoxMesh_aayhe")
+
+[node name="Grape" parent="." instance=ExtResource("1_nlhgq")]
+transform = Transform3D(0.207731, 0.117847, 0.07389, -0.116944, 0.219873, -0.0219036, -0.0753108, -0.0163639, 0.237824, -4.67308, 5.41997, 6.9704)
+
+[node name="Vase" parent="." instance=ExtResource("2_a6iph")]
+transform = Transform3D(4.8347, 0, -1.27503, 0, 5, 0, 1.27503, 0, 4.8347, -2.74164, 5.6038, 5.38801)
+
+[node name="Grape2" parent="." instance=ExtResource("1_nlhgq")]
+transform = Transform3D(0.110098, 0.187398, -0.123533, -0.216965, 0.124098, -0.00511424, 0.057487, 0.109462, 0.217286, -5.77306, 5.53851, 5.30099)
+
+[node name="Sunflower" parent="." instance=ExtResource("3_m361o")]
+transform = Transform3D(0.169214, 0, -0.0446262, 0, 0.175, 0, 0.0446262, 0, 0.169214, -2.83735, 4.8744, 5.45506)
+
+[node name="Skull" parent="." instance=ExtResource("4_njk4j")]
+transform = Transform3D(0.004641, 0, -0.0018604, 0, 0.005, 0, 0.0018604, 0, 0.004641, -8.83602, 6.00479, 3.73131)
+
+[node name="Sunflower2" parent="." instance=ExtResource("3_m361o")]
+transform = Transform3D(0.049732, 0, 0.167785, 0, 0.175, 0, -0.167785, 0, 0.049732, -2.22941, 4.41601, 5.3263)
+
+[node name="Wine" parent="." instance=ExtResource("5_1csim")]
+transform = Transform3D(-0.00729892, 0, -0.0131044, 0, 0.015, 0, 0.0131044, 0, -0.00729892, -7.22204, 7.5596, 3.10056)
+
+[node name="Peach" parent="." instance=ExtResource("6_fmu8q")]
+transform = Transform3D(0.130154, -0.0486013, -0.990302, -0.740846, 0.659031, -0.129711, 0.658944, 0.750544, 0.0497691, -5.37354, 7.17259, 2.55098)
+
+[node name="Apple" parent="." instance=ExtResource("7_snvtf")]
+transform = Transform3D(0.648641, 0, -0.0420026, 0, 0.65, 0, 0.0420026, 0, 0.648641, -3.07777, 6.06886, 7.40715)
+
+[node name="Apple2" parent="." instance=ExtResource("7_snvtf")]
+transform = Transform3D(-0.546196, 0, -0.352377, 0, 0.65, 0, 0.352377, 0, -0.546196, -7.61656, 6.08404, 3.66049)
+
+[node name="Music" type="MeshInstance3D" parent="."]
+transform = Transform3D(10, 0, 0, 0, -4.37114e-07, -10, 0, 10, -4.37114e-07, -8.01169, 18.3875, -35.578)
+material_override = SubResource("StandardMaterial3D_nqm5i")
+mesh = SubResource("PlaneMesh_h0od4")
